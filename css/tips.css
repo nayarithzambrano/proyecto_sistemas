@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Open Sans';
+}
+body{
+	background-image: url(img/fondo.jpg);
+	background-size: cover;
+}
+nav{
+	max-width: 30000px;
+	margin: auto;
+	background-color: #4ca149;
+	font-size: 40px;
+	margin-top: 100px;
+	height: ;
+}
+.menu-horizontal{
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+.menu-horizontal > li > a{
+	display: block;
+	padding: 20px 30px;
+	color: white;
+	text-decoration: none;
+}
+.menu-horizontal > li:hover{
+	background-color: rgb(131, 213, 69);
+}
+.menu-vertical{
+	position: absolute;
+	display: none;
+	list-style: none;
+	width: 385px;
+	background-color: rgb(66, 153, 55);
+}
+.menu-horizontal li:hover .menu-vertical{
+	display: block;
+}
+.menu-vertical li:hover{
+	background-color: rgb(52, 168, 52);
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 111%;
+    width: 80%;
+  }
+
+  nav { max-width: 30000px;
+	margin: vertical;
+	background-color: #4e9c4c;
+	font-size: 40px;
+	margin-top: -190px;
+
+  }
+  .logo {
+    transform: scale(0.3);
+  }
+
+.menu-vertical li a{
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 20px 20px 20px 20px;
+}
+
+#html{
+	margin: auto;
+	padding: 100px;
+	max-width: 40px;
+	background: white;
+
+}
